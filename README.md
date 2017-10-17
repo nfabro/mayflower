@@ -25,7 +25,8 @@ Download the compressed, production jQuery 3.2.1
 rename the js file to jquery.min.js and copy this file inside the js folder
 
 
-
+You can find free Images here
+https://blog.snappa.com/free-stock-photos/
 
 
 
