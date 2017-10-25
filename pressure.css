@@ -1,0 +1,54 @@
+.banner
+{
+    background-color: #e6e7e9;
+}
+
+.navbanner
+{
+    background-color: #f9b401;
+    height: 58px;
+}
+
+.navul
+{
+    padding-left: 800px;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.container-fluid > .row
+{
+    margin: 0;
+}
+
+.navbar
+{
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 0;
+}
+
+.phone
+{
+    display: inline-block;
+    background: url(../img/smartphone.png) right center no-repeat;
+    padding-top: 15px; 
+    padding-right: 15px; 
+    padding-bottom: 0; 
+    padding-left: 135px;
+}
+
+.phoneicon
+{
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 0px;    
+}
+
+.jumbotron
+{
+    opacity: 0.5;
+    color: black;
+}
+
+
