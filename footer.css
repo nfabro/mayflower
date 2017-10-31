@@ -1,0 +1,19 @@
+footer{
+	background-color:#000;
+}
+.footer-text{
+	color:#f2eeed;
+}
+.list-unstyled li a{
+	color:#f9b401;
+}
+.footer-logo {
+    max-height: 130px;
+}
+
+.footer-logo img {
+    height: 130px;
+}
+footer  hr{
+	background-color:#fff;
+}
