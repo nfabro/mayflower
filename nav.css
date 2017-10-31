@@ -1,0 +1,38 @@
+.navbar {
+    background-color: #fecd28 !important;
+    font-weight: 600;
+}
+
+.navbar-nav a {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    background: none;
+    border: none;
+}
+
+.dropdown-menu {
+    margin-top: -1px;
+    min-width: 250px;
+}
+
+.dropdown-menu .links {
+    background: #666;
+}
+
+.dropdown-menu a {
+    color: #fff;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dropdown-menu a:hover {
+    background: #fff;
+    transition: all 200ms linear;
+}
+
