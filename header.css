@@ -1,0 +1,44 @@
+
+header {
+    border-top: 4px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+header .media-body {
+    text-align: right;
+    padding-right: 10px;
+}
+
+header .media {
+    margin-top: 10px;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+header .media-body h2 {
+    margin-bottom: 0;
+    font-style: normal;
+}
+
+header .media-body h2 span {
+    font-weight: bold;
+    color: #00529f;
+}
+
+.logo {
+    max-height: 100px;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.padding-zero {
+    padding: 0;
+}
+
+.bg-yellow {
+    background-color: #fecd28;
+}
