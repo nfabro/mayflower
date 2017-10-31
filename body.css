@@ -1,0 +1,20 @@
+#Services{
+  font-size:45px;
+    border-bottom-style:ridge;
+    font-weight: bold;
+    border-bottom-color: #82c434;
+    }
+    
+    .item-inner {
+    position: relative;
+    z-index: 1;
+}
+
+title{
+    color:red;
+    margin-top:450px;
+}
+.font{
+font-size:20px;
+}
+    
