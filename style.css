@@ -45,6 +45,14 @@ header .media-body h2 span {
     background-color: #fecd28;
 }
 
+/*made by Ali*/
+@media (min-width: 1px) and (max-width: 1000px) {
+	.logo, .MediaCon{
+		text-align: center;
+	}
+}
+
+
 
 /* navigation menu*/
 
@@ -89,26 +97,38 @@ header .media-body h2 span {
 
 /*carousel*/
 
-
+.img_opacity{
+	background-color: rgba(255, 255, 255, 0.3);
+	color: black;
+}
 
 
 /*services*/
 
+
 .img_services{
-	padding-top: 12px;
-	padding-right: 15px;
-	padding-bottom: 12px;
+
+	padding-bottom: 15px;
 }
 
+.img_thumb{
+	padding-top: 15px;
+	padding-bottom: 30px
+}
 
 /*about us*/
+
+
+
+
+/*contact us*/
 
 
 
 /* footer */
 
 footer{
-	background-color:#000;
+	background-color:#004B62;
 }
 .footer-text{
 	color:#f2eeed;
@@ -129,3 +149,4 @@ footer{
 	display: block;
     margin: auto;
 } 
+
