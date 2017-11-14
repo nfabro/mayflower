@@ -1,3 +1,9 @@
+
+/* fonts */
+h1, h2, h3, h4, h5, h6, p{
+	font-family: Ubuntu;
+}
+
 /* header */
 
 header {
@@ -116,10 +122,10 @@ header .media-body h2 span {
 	padding-bottom: 30px
 }
 
-/*about us*/
-
-
-
+.bg-color{
+	background-color: #81c0c5;
+	padding: 50px;
+}
 
 /*contact us*/
 
@@ -149,12 +155,45 @@ header .media-body h2 span {
 }
 
 .text {
-    background-color: gainsboro;
     color:black;
     font-size: 16px;
     padding:16px 32px;
 }
 
+/* slideanimation */
+.slideanimation {visibility:hidden;}
+.slideanim {
+    /* The name of the animation */
+    animation-name: slideanim;
+    -webkit-animation-name: slideanim; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slideanim {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slideanim {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
 
 /* footer */
 
@@ -180,4 +219,3 @@ footer{
 	display: block;
     margin: auto;
 } 
-
