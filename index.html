@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>May Flower Services Group</title>
+    <title>MayFlower Services Group</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -22,14 +22,21 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css" />
 	
-	
+	<!-- Javascript-->
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<script src="js/script.js"></script>
 	
 	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu" rel="stylesheet">
 	
 </head>
 
 <body>
+
+
 
 <!---- Header  --->
     <header class="container-fluid">
@@ -89,10 +96,6 @@
                                 </li>
 								
                                 <li class="nav-item">
-                                    <a class="nav-link" href="news.html">News</a>
-                                </li>
-								
-                                <li class="nav-item">
                                     <a class="nav-link" href="#aboutus">About Us</a>
                                 </li>
 								
@@ -121,7 +124,7 @@
 			<img class="d-block w-100" src="img/slide1.jpeg" alt="First slide">
 			    <div class="carousel-caption d-none d-md-block">
 					<div class="jumbotron jumbotron-billboard img_opacity">
-						<h1 class="display-3 font-weight-bold text-uppercase text-dark">Grime & Stain</h1>
+						<h1 class="display-3 font-weight-bold text-uppercase text-dark">Home Page</h1>
 							<p class="lead font-weight-bold text-dark">Use MayFlower's High Pressure Cleaning Service to brighten your property</p>
 					</div>    
 				</div>
@@ -131,7 +134,7 @@
 			<img class="d-block w-100" src="img/slide2.jpeg" alt="First slide">
 			    <div class="carousel-caption d-none d-md-block">
 					<div class="jumbotron jumbotron-billboard img_opacity">
-						<h1 class="display-3 font-weight-bold text-uppercase text-dark">Grime & Stain</h1>
+						<h1 class="display-3 font-weight-bold text-uppercase text-dark">Home Page</h1>
 							<p class="lead font-weight-bold text-dark">Use MayFlower's Office Cleaning to brighten your property</p>
 					</div>    
 				</div>
@@ -141,7 +144,7 @@
 			<img class="d-block w-100" src="img/slide3.jpeg" alt="First slide">
 			    <div class="carousel-caption d-none d-md-block">
 					<div class="jumbotron jumbotron-billboard img_opacity">
-						<h1 class="display-3 font-weight-bold text-uppercase text-dark">Grime & Stain</h1>
+						<h1 class="display-3 font-weight-bold text-uppercase text-dark">Home Page</h1>
 							<p class="lead font-weight-bold text-dark">Use MayFlower's Window Cleaning to brighten your property</p>
 					</div>    
 				</div>
@@ -161,25 +164,46 @@
 	
 <!-- Services -->
 
+
 	<div class="container-fluid" id="services">
 		<div class="row">
-			<div class="col-md-6 mx-auto">
-				<img class="img-fluid img_services img-rounded" src="img/office.jpeg" alt="Office Cleaning">
+			<div class="col-md-6 mx-auto hov_img">
+				<a href="carpet.html"><img class="img-fluid img_services img-rounded image" src="img/carpet.jpg" alt="Carpet Cleaning">
+					<div class="middle text text-center">
+						<h2>Carpet Cleaning</h2>
+						<h4>Say goodbye to stains</h4>
+					</div>
+				</a>	
 			</div>
 			
-			<div class="col-md-6 mx-auto">
-				<img class="img-fluid img_services img-rounded" src="img/carpet.jpeg" alt="Carpet Cleaning">
+			<div class="col-md-6 mx-auto hov_img">
+				<a href="office.html"><img class="img-fluid img_services img-rounded image" src="img/OfficeClean.jpg" alt="Office Cleaning">
+					<div class="middle text text-center">
+						<h2>Office Cleaning</h2>
+						<h4>Enjoy a healthy environment</h4>
+					</div>
+				</a>	
 			</div>
 		</div>
 		
 		
 		<div class="row">
-			<div class="col-md-6 mx-auto">
-				<img class="img-fluid img_services img-rounded" src="img/pressure.jpeg" alt="Pressure Cleaning">
+			<div class="col-md-6 mx-auto hov_img">
+				<a href="pressure.html"><img class="img-fluid img_services img-rounded image" src="img/pressure.jpg" alt="Pressure Cleaning">
+					<div class="middle text text-center">
+						<h2>Pressure Cleaning</h2>
+						<h4>Leave the pressure with us</h4>
+					</div>
+				</a>	
 			</div>
 			
-			<div class="col-md-6 mx-auto">
-				<img class="img-fluid img_services img-rounded" src="img/window.jpeg" alt="Window Cleaning">
+			<div class="col-md-6 mx-auto hov_img">
+				<a href="window.html"><img class="img-fluid img_services img-rounded image" src="img/window.jpg" alt="Window Cleaning">
+					<div class="middle text text-center">
+						<h2>Window Cleaning</h2>
+						<h4>We'll make it sparkle</h4>
+					</div>
+				</a>
 			</div>
 		</div>
 	</div>
@@ -191,7 +215,7 @@
 		<p>Cras laoreet pharetra pulvinar. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum et vehicula tortor, id consectetur tellus. Phasellus suscipit justo eleifend lacus lacinia, et consequat nisi tempor. Nulla sagittis elit sit amet varius varius. Duis a ex sem. Sed facilisis leo et dolor tincidunt, non mattis arcu tincidunt. In mattis elit libero, quis varius velit venenatis vitae. Aenean tellus libero, blandit non lobortis vel, interdum sed nunc. Sed dignissim tincidunt mauris a varius. Aliquam ac fermentum neque. Nullam arcu ante, feugiat non odio eget, blandit suscipit risus. Praesent vitae sem quis nunc tincidunt dignissim. Phasellus euismod eget risus a mattis. Duis nibh ex, ullamcorper id consequat eu, feugiat sed ligula.</p>
 		<div class="row img_thumb">
 			<div class="col">
-				<div class="card mx-auto" style="width: 20rem;">
+				<div class="card mx-auto slideanimation" style="width: 20rem;">
 					<img class="card-img-top" src="img/pressure.jpeg" alt="Card image cap">
 						<div class="card-body">
 							<h3>Rizan</h3>
@@ -201,7 +225,7 @@
 			</div>
 				
 			<div class="col">
-				<div class="card mx-auto" style="width: 20rem;">
+				<div class="card mx-auto slideanimation" style="width: 20rem;">
 					<img class="card-img-top" src="img/pressure.jpeg" alt="Card image cap">
 						<div class="card-body">
 							<h3>Sam</h3>
@@ -247,11 +271,7 @@
 	</blockquote>
 </footer>
 
-<!-- Javascript-->
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 	
 </body>
 </html>
